@@ -13,9 +13,9 @@ function Home() {
   return (
     <div className="">
       <div className="">
-        <h6 className="text-center font-bold  text-lg py-3">can only be accessed by authenticated users</h6>
+        <h6 className="text-center font-bold  text-lg py-10">can only be accessed by authenticated users</h6>
         {users && (
-          <ul className="flex gap-2">
+          <ul className="flex gap-2 py-10">
             {users.map((user) => (
               <div className="card card-side bg-base-100 shadow-xl ">
                 <figure>
