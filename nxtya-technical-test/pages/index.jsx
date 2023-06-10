@@ -28,7 +28,7 @@ function Home() {
                 </figure>
                 <div className="card-body">
                   <p>{user.username}</p>
-                  <h2 className="card-title">Do you like orange!</h2>
+                  <h2 className="card-title">Do you like orange ! </h2>
                   <div className="card-actions justify-end">
                     <button className="btn btn-primary">yes</button>
                   </div>
