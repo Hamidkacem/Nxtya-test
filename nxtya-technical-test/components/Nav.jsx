@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-
-import { NavLink } from ".";
 import { userService } from "services";
 
 export { Nav };
@@ -21,18 +19,6 @@ function Nav() {
   if (!user) return null;
 
   return (
-    <nav className="bg-white h-screen">
-      {/* <div className="card-body">
-                   <h6>Users from secure api end point</h6>
-                   {users &&
-                       <ul>
-                           {users.map(user =>
-                               <li key={user.id}>{user.firstName} {user.lastName}</li>
-                           )}
-                       </ul>
-                   }
-                   {!users && <div className="spinner-border spinner-border-sm"></div>}
-               </div> */}
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -109,6 +95,5 @@ function Nav() {
           </button>
         </div>
       </div>
-    </nav>
   );
 }

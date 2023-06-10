@@ -46,7 +46,7 @@ function App({ Component, pageProps }) {
 
   return (
     <>
-      <div className="app-container bg-light">
+      <div className="app-container bg-white h-screen">
         <Nav />
         {authorized && <Component {...pageProps} />}
       </div>

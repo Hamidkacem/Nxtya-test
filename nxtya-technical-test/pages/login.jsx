@@ -7,7 +7,6 @@ import * as Yup from "yup";
 import { HiEyeOff, HiEye } from "react-icons/hi";
 import { userService } from "services";
 
-export default Login;
 
 function Login() {
   const router = useRouter();
@@ -149,3 +148,4 @@ function Login() {
     </div>
   );
 }
+export default Login;
